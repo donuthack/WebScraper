@@ -11,7 +11,7 @@ usernameStr = 'eldar'
 passwordStr = '1qaz!QAZ'
 
 browser = webdriver.Chrome('/Users/workplace/Downloads/chromedriver')
-browser.get(('https://vauto.signin.coxautoinc.com/?solutionID=VAT_prod&clientId=68e5c360aa114799a67e94c4d587ff65'))
+browser.get(('url'))
 all_cookies = browser.get_cookies()
 file = open('cookies.txt', 'w')
 cookies = str(all_cookies)
@@ -39,7 +39,7 @@ time.sleep(10)
 # gotItButton.click()
 
 '''parsing site'''
-browser.get(('https://www2.vauto.com/Va/Inventory/Default.aspx?uq=1'))
+browser.get(('url'))
 # Wait 20 seconds for page to load
 timeout = 10
 try:
