@@ -9,10 +9,10 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 import pandas as pd
 import json
 
-usernameStr = 'eldar'
-passwordStr = '1qaz!QAZ'
+usernameStr = 'username'
+passwordStr = 'password'
 
-browser = webdriver.Chrome('/Users/workplace/Downloads/chromedriver')
+browser = webdriver.Chrome('chromedriver')
 browser.get(('you url'))
 all_cookies = browser.get_cookies()
 file = open('cookies.txt', 'w')
