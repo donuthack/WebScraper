@@ -7,10 +7,10 @@ from selenium.common.exceptions import TimeoutException
 import pandas as pd
 
 
-usernameStr = 'eldar'
-passwordStr = '1qaz!QAZ'
+usernameStr = 'username'
+passwordStr = 'password'
 
-browser = webdriver.Chrome('/Users/workplace/Downloads/chromedriver')
+browser = webdriver.Chrome('chromedriver')
 browser.get(('url'))
 all_cookies = browser.get_cookies()
 file = open('cookies.txt', 'w')
